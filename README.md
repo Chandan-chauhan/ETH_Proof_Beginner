@@ -39,10 +39,15 @@ contract Token{
   }
 }
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile SecondProject.sol" button.
+
 After the contract is successfully compiled, proceed to deploy it. Click on the "Deploy & Run Transactions" tab in the left-hand sidebar. In the dropdown menu, select the Token contract. Once selected, click on the "Deploy" button to deploy the contract to the blockchain. This action will make the contract available for interaction.
+
 With the contract deployed, you will see it listed under the "Deployed Contracts" section. To interact with it, expand the deployed contract instance. You will now have access to various functions defined within your contract, such as mint, burn, and others.
+
 To mint new tokens, locate the mint function within the contract. Input the address you wish to send tokens to in the _address field, and the number of tokens you want to mint in the val field. Clicking the "transact" button will execute the mint function, increasing the total supply and the balance of the specified address.
+
 Similarly, to burn tokens, find the burn function. Enter the address from which you want to burn tokens in the _address field, and the number of tokens to burn in the val field. Click the "transact" button to execute the burn function. This action will reduce the total supply of tokens and decrease the balance of the specified address, provided that the address has sufficient tokens.
+
 You can also check the balances of various addresses and the total supply of tokens. To check a balance, locate the bal mapping, input an address, and click the "call" button to retrieve the token balance of that address. To check the total supply of tokens, simply click on the totalSupply variable to view the current total supply.
 
 # Author

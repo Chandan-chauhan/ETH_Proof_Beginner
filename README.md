@@ -46,8 +46,9 @@ Similarly, to burn tokens, find the burn function. Enter the address from which 
 You can also check the balances of various addresses and the total supply of tokens. To check a balance, locate the bal mapping, input an address, and click the "call" button to retrieve the token balance of that address. To check the total supply of tokens, simply click on the totalSupply variable to view the current total supply.
 
 # Author
+Chandan
 @chandan
 
 # License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License.
 
